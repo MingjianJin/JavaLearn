@@ -11,7 +11,7 @@
 当一个并发任务提交给线程池，线程池分配线程去执行任务的过程如下图所示：
 
 
-![线程池执行流程图.jpg](https://upload-images.jianshu.io/upload_images/2615789-2d3eb90c8e2cf51f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![线程池执行流程图.jpg](https://github.com/MingjianJin/JavaLearn/blob/master/pic/threadPool/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
 
 
 
@@ -97,7 +97,7 @@
 
 ThreadPoolExecutor的execute方法执行逻辑请见注释。下图为ThreadPoolExecutor的execute方法的执行示意图：
 
-![execute执行过程示意图.jpg](https://upload-images.jianshu.io/upload_images/2615789-1c5c07e48180130a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![execute执行过程示意图.jpg](https://github.com/MingjianJin/JavaLearn/blob/master/pic/threadPool/execute%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B%E7%A4%BA%E6%84%8F%E5%9B%BE.jpg)
 
 
 execute方法执行逻辑有这样几种情况：
